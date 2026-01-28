@@ -10,7 +10,7 @@ import com.visionrestro.service.ProductSaveService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173") // React
+@CrossOrigin(origins = "https://vision-restro.netlify.app/") // React
 public class ProductSaveController {
 
     @Autowired

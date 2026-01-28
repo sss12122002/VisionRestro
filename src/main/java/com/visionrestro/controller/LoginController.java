@@ -11,7 +11,7 @@ import com.visionrestro.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173") // Vite port
+@CrossOrigin(origins = "https://vision-restro.netlify.app/") // Vite port
 public class LoginController {
 
     @Autowired
